@@ -8,7 +8,7 @@ const VideoDetail=({result})=>{
     return(
         <div style={{color:"whitesmoke",backgroundColor:"#121212"}} className="ui segment">
             <div className="ui embed">
-                <iframe src={vidsrc} frameborder="0" title="video"></iframe>
+                <iframe src={vidsrc} frameBorder="0" title="video"></iframe>
             </div>
             <h3 style={{borderBottom:"1px solid whitesmoke"}}>{result.snippet.title}</h3>
             <h4>{result.snippet.description}</h4>

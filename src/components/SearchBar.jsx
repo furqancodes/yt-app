@@ -12,7 +12,7 @@ const SearchBar=({onSearchSubmit})=>{
             <div className="ui segment" style={{backgroundColor:"#303030"}}>
               <form onSubmit={onFormSubmit} className="ui form">
                 <div className="field">
-                  <label style={{color:"#e2e2e2",fontSize:"larger"}}>Video Search</label>
+                  <label style={{color:"#e2e2e2",fontSize:"larger"}}>Video is Search</label>
                   <input
                     type="text"
                     className="prompt"
